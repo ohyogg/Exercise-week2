@@ -19,6 +19,7 @@ void draw()
   ellipse(170,170,eyesize,eyesize);
   ellipse(310,170,eyesize,eyesize);
   eyesize  = eyesize -1 ;
+  //eyesize = floor(sqrt(eyesize*eyesize));
   
   
   
